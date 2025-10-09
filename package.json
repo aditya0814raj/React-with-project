@@ -1,0 +1,24 @@
+{
+  "name": "react-with-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start": "npm --prefix 01basicreact start",
+  "build": "npm --prefix 01basicreact run build",
+  "install": "npm --prefix 01basicreact install",
+  "dev": "npm --prefix 01vitereact run dev"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditya0814raj/React-with-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aditya0814raj/React-with-project/issues"
+  },
+  "homepage": "https://github.com/aditya0814raj/React-with-project#readme"
+}
