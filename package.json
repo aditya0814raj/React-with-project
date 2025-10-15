@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "start": "npm --prefix 01basicreact start",
-  "build": "npm --prefix 01basicreact run build",
-  "install": "npm --prefix 01basicreact install",
-  "dev": "npm --prefix 01vitereact run dev"
-},
+    "start": "npm --prefix 01basicreact start",
+    "build": "npm --prefix 01basicreact run build",
+    "install": "npm --prefix 01basicreact install",
+    "dev:01vitereact": "npm --prefix 01vitereact run dev",
+    "dev:02counter": "npm --prefix 02counter run dev",
+    "dev:03tailwindprops": "npm --prefix 03tailwindprops run dev"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aditya0814raj/React-with-project.git"
@@ -20,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/aditya0814raj/React-with-project/issues"
   },
-  "homepage": "https://github.com/aditya0814raj/React-with-project#readme"
+  "homepage": "https://github.com/aditya0814raj/React-with-project#readme",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.14"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18"
+  }
 }
