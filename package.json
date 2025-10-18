@@ -10,7 +10,8 @@
     "dev:01vitereact": "npm --prefix 01vitereact run dev",
     "dev:02counter": "npm --prefix 02counter run dev",
     "dev:03tailwindprops": "npm --prefix 03tailwindprops run dev",
-    "dev:04bgchanger": "npm --prefix 04bgchanger run dev"
+    "dev:04bgchanger": "npm --prefix 04bgchanger run dev",
+    "dev:05passwordGenerator": "npm --prefix 05passwordGenerator run dev"
   },
   "repository": {
     "type": "git",
